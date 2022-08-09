@@ -1,0 +1,460 @@
+@import url(//fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+
+@media only screen and (max-width: 600px) {
+
+
+    .container {
+
+
+        display: grid;
+        gap: 20px;
+
+        grid-template-areas:
+            "nav  nav nav"
+            "products products ."
+            "buttonsec1 . ."
+
+            "heading heading ."
+            "sec3 sec3 ."
+
+            "mfooter mfooter mfooter";
+    }
+
+    .buttonsec1 {
+        grid-area: buttonsec1;
+    }
+
+    .icon2 {
+        margin: 0px 10px;
+    }
+
+    #counter_salla {
+        text-align: center;
+        /* margin: 0px 100px; */
+
+        position: absolute;
+        top: 0;
+        right: 180px;
+    }
+
+    #icon_customer {
+
+        position: absolute;
+        top: 15px;
+        left: 70px;
+    }
+
+    nav {
+
+
+        display: flex wrap;
+
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+
+    .sec3 {
+        text-align: center;
+        position: relative;
+        right: 20px;
+    }
+
+    .mfooter {
+        grid-area: mfooter;
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+        gap: 200px;
+        background-color: #272727;
+        opacity: 0.9;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+    }
+
+    .products {
+        grid-area: products;
+        position: relative;
+        top: 0%;
+        right: 200px;
+    }
+
+    .products2 {
+        grid-area: products2;
+    }
+
+    .logo {
+        grid-area: logo;
+        /* position: relative;
+
+     left:50px; */
+        border-radius: 40%;
+        opacity: 100%;
+        width: 100px;
+    }
+
+    .search_icon form {
+
+
+
+        position: relative;
+
+
+        right: 150px;
+
+
+    }
+
+    /* .salla_init{
+        grid-area: salla_init;
+    } */
+    .icon2 {
+        grid-area: icon2;
+    }
+
+    header a {
+
+
+
+        display: none;
+
+
+    }
+
+
+
+
+
+
+    .products2 {
+
+
+        display: none;
+
+    }
+
+    .icon_salla {
+
+
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    #salla_init {
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        background-color: red;
+        opacity: 0.8;
+        color: white;
+        border-radius: 40%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        z-index: 1;
+
+    }
+
+
+
+}
+
+
+/* @import url(//fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        margin: 0px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-rows: repeat(13, 30);
+        gap: 30px;
+        grid-template-areas:
+            "nav  nav  nav"
+            "header  header  header "
+            "prodtxt1 prodtxt1 prodtxt1"
+            "products products products"
+            "prodtxt2 prodtxt2 prodtxt2"
+            "products2 products2 products2"
+            "sec3 sec3 sec3"
+            ". . ."
+            "mfooter mfooter mfooter";
+    }
+
+
+
+
+    nav {
+        grid-area: nav;
+    }
+
+    .hersosection {
+        grid-area: hersosection;
+
+    }
+
+    .products {
+        grid-area: products;
+    }
+
+    .products2 {
+        grid-area: products2;
+    }
+
+    .sec3 {
+        grid-area: sec3;
+    }
+
+    .mfooter {
+        grid-area: mfooter;
+    }
+
+    .buttonsec1 {
+        grid-area: buttonsec1;
+    }
+
+    .buttonsec2 {
+        grid-area: buttonsec2;
+    }
+
+    .prodtxt1 {
+        grid-area: prodtxt1;
+    }
+
+    .prodtxt2 {
+        grid-area: prodtxt2;
+    }
+
+    header {
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        gap: 50px;
+        ;
+    }
+
+    a:hover {
+        background-color: lightgrey;
+        width: 50px;
+    }
+
+
+    .prodtxt1 {
+        padding: 10px;
+        right: 50%;
+    }
+
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        height: 5px;
+        background: white;
+        position: relative;
+        top: 5px;
+        left: 50px;
+        border: 1px solid grey;
+    }
+
+    .fa-search {
+        padding: 8px;
+        height: 5px;
+    }
+
+    .hersosection {
+        background-color: green;
+        height: 150px;
+        background-image: url("/Users/zainab/Desktop/abya project /herosec.png");
+        height: 450px;
+    }
+
+    .products {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .products2 {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .border2 {
+        border-style: solid;
+        height: 200px;
+        width: 100px;
+        padding: 10px;
+        margin: auto;
+
+    }
+
+    nav {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .border {
+        border-style: solid;
+        height: 100px;
+        width: 500px;
+        margin: auto;
+        padding: 100px;
+        background-color: gray;
+        opacity: 0.5;
+        text-align: center;
+
+    }
+
+    .sec3 {
+
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        height: 100px;
+        gap: 50px;
+
+    }
+
+    .mfooter {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        gap: 300px;
+        background-color: #272727;
+        opacity: 0.9;
+    }
+
+
+    li {
+        list-style-type: none;
+    }
+
+
+    .main_footer {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        gap: 100px;
+        background-color: #272727;
+        opacity: 0.9;
+    }
+
+
+    .price {
+        text-decoration: line-through;
+        text-align: center;
+    }
+
+
+    .boord_price {
+
+        /* border-style:solid;
+    height: 20px;
+    width: 100px; */
+        padding: 10px;
+        margin-left: -10px;
+
+    }
+
+    .button {
+        background-color: gold;
+    }
+
+    .icon2 {
+        margin: 0px 10px;
+    }
+
+    #counter_salla {
+        text-align: center;
+        /* margin: 0px 100px; */
+
+        position: absolute;
+        top: 0;
+        right: 180px;
+    }
+
+    #icon_customer {
+
+        position: absolute;
+        top: 15px;
+        left: 70px;
+
+    }
+
+    .fa-search {
+        padding: 8px;
+        height: 15px;
+
+
+
+    }
+
+    header {
+        grid-area: header;
+
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        gap: 50px;
+        ;
+        position: relative;
+        top: 3px;
+        left: 40px;
+        background-color: #e8edf2;
+        /* opacity: 0.5; */
+
+
+    }
+
+    header a {
+        color: black;
+    }
+
+    .search_icon {
+
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        right: 20px;
+    }
+
+    .icon_salla {
+
+
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    #salla_init {
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        background-color: red;
+        opacity: 0.8;
+        color: white;
+        border-radius: 40%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        z-index: 1;
+
+    }
+
+}

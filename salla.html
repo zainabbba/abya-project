@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Abya</title>
+    <link href="https://fonts.googleapis.com/css?family=Akaya Kanadaka" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script defer src="js/salla.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin='anonymous'>
+    </script>
+</head>
+
+
+<body dir="rtl">
+
+    <div class="container">
+
+        <nav>
+
+            <a href="index.html"> <img src="photo/logo.png" alt="logo" width="200" height="70">
+            </a>
+
+            <div class="search_icon">
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input type="text" placeholder="Search.." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div lass="icon1">
+
+                <a href="#myform">
+                    <div id="icon_customer">
+
+                        <i class='fa fa-user' style='font-size:36px;color: lightgray;'></i>
+
+                    </div>
+
+
+                </a>
+            </div>
+            <span id="salla_init"> 0 </span>
+            <div class="icon2 icon_salla">
+
+
+                <i class="fa fa-shopping-cart" style="font-size:36px;color: lightgray"></i>
+            </div>
+
+        </nav>
+
+
+        <header>
+
+            <a href="#">الرئيسية</a>
+            <a href="#">جميع العبايات</a>
+            <a href="#">عبايات الصيف</a>
+            <a href="#">عبايات للأطفال </a>
+            <a href="#">عبايات مناسبات</a>
+            <a href="#">جديدنا</a>
+
+
+        </header>
+
+        <section class="sec_product">
+
+            <div class="crad_product">
+
+                <div class='remove_product'>
+                    <i class="fa fa-window-close" style="font-size:48px;color:red"></i>
+                </div>
+                <div class="amount-product">
+                    <span id="add-amount"> &#43;</span>
+
+                    <span id="amount">0</span>
+                    <span id="sub-amount"> &#8722;</span>
+                </div>
+                <div class="product-name-and-img">
+                    <img class="product-img" src="photo/product.png" alt="product image choosen" height="150px"
+                        width="100px">
+
+
+
+                    <div class="product-name">عباية بأكمام <div class="product-price">٢٥٠ ر.س </div>
+                    </div>
+
+                </div>
+                <div class="product-total-and-price">
+
+                    <div class="product-total"> مجموع السلة </div>
+                    <div class="product-total-price"> ٢٥٠ ر.س </div>
+                </div>
+
+                <div class="product-discount">
+
+                    <input type='text' value='ادخل كود الخصم' />
+                    <input type="button" value="تخفيض" />
+                </div>
+
+                <div class="product-done">
+                    <input type='button' value="اتمام الطلب " />
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="myform">
+            <span ID="close">X</span>
+            <div class="myform_container">
+                <i class='fas fa-user-circle' style='font-size:36px'></i>
+                <h5> تسجيل الدخول </h5>
+                <div id="login-panel-actions">
+                    <p>
+
+                        اختر الوسيلة المناسبه
+
+
+                    </p>
+                </div>
+
+                <div class="email_mail">
+
+                    <div class="email">
+                        <i class="fa fa-envelope" style="font-size:24px"></i>
+                        <button id="btn_email">البريد الإلكتروني</button>
+
+                    </div>
+
+
+                    <div class="phone">
+
+                        <i class="fa fa-mobile" style="font-size:24px"></i>
+                        <button id="btn_phone"> رسالة نصيه</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="form_email">
+            <span ID="close_email">X</span>
+            <div class="myform_container">
+                <i class='fas fa-user-circle' style='font-size:36px'></i>
+                <h5> تسجيل الدخول </h5>
+
+
+                <div class="email_submit">
+
+                    <label required>
+
+                        البريد الإلكتروني
+                        <span style="color:red;"> *</span>
+                    </label>
+
+                    <div class="email_login">
+
+                        <input type="email" id="email" name="email">
+                        <i class="fa fa-envelope" style="font-size:24px"></i>
+
+                    </div>
+                    <br>
+
+                    <div class="login">
+                        <input type="submit" value=" الدخول > ">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="form_phone">
+            <span ID="close_phone">X</span>
+            <div class="myform_container">
+                <i class='fas fa-user-circle' style='font-size:36px'></i>
+                <h5> تسجيل الدخول </h5>
+
+
+                <div class="email_submit">
+
+                    <label required>
+
+                        رقم الجوال
+                        <span style="color:red;"> *</span>
+                    </label>
+
+                    <div class="email_login">
+
+                        <input type="tel" id="phone" name="phone" placeholder="123-45-678"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        <i class="fa fa-mobile" style="font-size:24px"></i>
+
+                    </div>
+                    <br>
+
+                    <div class="login">
+                        <input type="submit" value=" الدخول > ">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="mfooter">
+
+
+
+            <div class="main_footer">
+                <img src="photo/logo2.png" alt="logo" width="150" height="70">
+
+
+                <div>
+                    <h2>من نحن </h2>
+                    <p>دار امتنان ، دار مخصصة للعبايات النسائية مصممة بأيدي سعودية محملة بالأماني ، نصل لجميع مناطق
+                        المملكة</p>
+                </div>
+
+
+
+
+                <div>
+                    <h2> تواصل معنا </h2>
+                    <i class='fa fa-whatsapp'> واتساب</i>
+
+
+                    <i class='fa fa-envelope'> ايميل</i>
+                </div>
+                <div>
+                    <h2> روابط مهمة</h2>
+                    <li> <a href="#">سياسة الاستبدال و الإسترجاع</a> </li>
+                    <li> <a href="#">سياسة الخصوصية</a> </li>
+
+                </div>
+
+
+                <div class="paymethods">
+                    <h2>طرق الدفع </h2>
+                    <img src='photo/paymada.png' alt='' width="40px" height="20px" />
+                    <img src='photo/payvisa.png' alt='' width="40px" height="20px" />
+                    <img src='photo/payapple.png' alt='' width="40px" height="20px" />
+                    <!-- <img src='photo/payvisa.png'/>
+                   <img src='photo/payapple.png'/> -->
+                </div>
+
+
+            </div>
+
+
+        </section>
+</body>
+</div>
+
+</html>
