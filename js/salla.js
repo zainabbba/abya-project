@@ -63,7 +63,6 @@ document.getElementById('btn_phone').addEventListener('click', (e) => {
   myform.style.display = "none";
   form_email.style.display = "none";
   form_phone.style.display = "block";
-  console.log("hello zainab")
 
 })
 
