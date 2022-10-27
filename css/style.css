@@ -108,7 +108,7 @@
         grid-area: hersosection;
         width: 500px;
         height: 200px;
-        background-image: url("../../photo/herosec.png");
+        background-image: url("photo/herosec.png");
         ;
     }
 
@@ -297,7 +297,7 @@
 
 
         height: 450px;
-        background-image: url("../../photo/herosec.png");
+        background-image: url("photo/herosec.png");
         ;
     }
 
