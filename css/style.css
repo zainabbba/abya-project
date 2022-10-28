@@ -94,7 +94,7 @@
     }
 
     header a {
- 
+
 
 
         display: none;
@@ -108,7 +108,7 @@
         width: 500px;
         height: 200px;
         background-image: url("photo/herosec.png");
-        
+
         ;
     }
 
@@ -129,10 +129,10 @@
 
     .products {
 
-    display: flex;
-    flex-direction: column;
-  
-}
+        display: flex;
+        flex-direction: column;
+
+    }
 
     .products2 {
 
@@ -204,7 +204,7 @@
         flex-direction: row;
         height: 300px;
         gap: 300px;
-      
+
         background-color: #272727;
         opacity: 0.9;
         position: relative;
@@ -294,7 +294,7 @@
 
     .hersosection {
         grid-area: hersosection;
-     
+
 
 
         height: 450px;
@@ -372,8 +372,6 @@
 
 
 }
-
-
 
 
 .mfooter {
