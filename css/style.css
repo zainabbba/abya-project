@@ -94,8 +94,7 @@
     }
 
     header a {
-        color: red;
-        background-color: red;
+ 
 
 
         display: none;
@@ -129,7 +128,7 @@
 
 
     .products {
-    background-color: red;
+
     display: flex;
     flex-direction: column;
   
