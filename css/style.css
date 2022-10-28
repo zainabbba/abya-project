@@ -204,6 +204,7 @@
         flex-direction: row;
         height: 300px;
         gap: 300px;
+      
         background-color: #272727;
         opacity: 0.9;
         position: relative;
@@ -375,7 +376,20 @@
 
 
 
-
+.mfooter {
+    grid-area: mfooter;
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    gap: 300px;
+    margin-top: 10%;
+    background-color: #272727;
+    opacity: 0.9;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
 
 .priceNew {
 
